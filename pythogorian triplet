@@ -1,0 +1,11 @@
+x=int(input())
+y=int(input())
+z=int(input())
+if x**2 + y**2 == z**2:
+    print("pythogorian triplet")   
+elif y**2 + z**2 == x**2:
+    print("pythogorian triplet")   
+elif z**2 + x**2 == y**2:
+    print("pythogorian triplet")   
+else:
+    print("not a pythogorian triplet")
