@@ -1,0 +1,17 @@
+n = input()
+y=input()
+i=len(n)-1
+j=len(y)-1
+carry = 0
+result = "" 
+while i >=0 and j >=0 or carry:
+    total = carry
+    if i>= 0:
+        total += int(n[i])
+        i-=1
+    if j >= 0:
+        total += int(y[j])
+        j-=1
+    carry = total//2
+    result = str(total%2) + result
+print(result)
