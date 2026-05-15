@@ -1,0 +1,21 @@
+"""n = int(input())
+
+if n <= 1:
+    print("not a prime")
+
+elif n <= 3:
+    print("prime")
+
+elif n % 2 == 0 or n % 3 == 0:
+    print("not a prime")
+
+else:
+    i = 5
+
+    while i * i <= n:
+        if n % i == 0 or n % (i + 2) == 0:
+            print("not a prime")
+            break
+        i += 6
+    else:
+        print("prime")"""
